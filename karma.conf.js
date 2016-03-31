@@ -13,26 +13,22 @@ module.exports = function(config) {
 
     client: {
          mocha: {
-           ui: 'tdd'
+           ui: 'bdd'
          }
    },
 
     // list of files / patterns to load in the browser
     files: [
       'index.html',
-      'tests/mocha.js',
-      'tests/chai.js',
-      'tests/sinon-1.7.1.js',
+      'mocha.js',
+      'chai.js',
       'http://xregexp.com/v/3.1.0/xregexp-all.js',
-      'tests/index.html',
-      'tests/tests.js',
-      'tests/mocha.css',
-      'assets/js/medida.js',
-      'assets/js/temperature.js',
-      'assets/js/celsius.js',
-      'assets/js/farenheit.js',
-      'assets/js/kelvin.js',
-      'assets/js/main.js'
+      'test.html',
+      'prueba.js',
+      'mocha.css',
+      'Medida.js',
+      'Temperatura.js',
+      'main.js'
     ],
 
     // list of files to exclude
